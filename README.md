@@ -7,3 +7,9 @@
 [![License](https://poser.pugx.org/hayrican/generator/license)](https://packagist.org/packages/hayrican/generator)
 
 This Generator package provides various generators like CRUD, API, Controller, Model, Migration, View for your painless development of your applications.
+
+
+## Installation
+```
+composer require hayrican/generator --dev
+```
