@@ -1,0 +1,23 @@
+{
+    "name": "hayrican/generator",
+    "description": "Generates Migration, Model, View, Controller, Routes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hayrican",
+            "email": "hayricanbarcin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "^5.3",
+        "laravelcollective/html": "^5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hayrican\\CrudGenerator\\": "src/"
+        }
+    }
+}
