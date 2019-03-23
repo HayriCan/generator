@@ -19,5 +19,12 @@
         "psr-4": {
             "Hayrican\\CrudGenerator\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hayrican\\CrudGenerator\\CrudGeneratorServiceProvider"
+            ]
+        }
     }
 }
